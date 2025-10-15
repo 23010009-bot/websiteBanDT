@@ -3,7 +3,7 @@ Theme Name: GeneratePress Child
 Template: generatepress
 */
 *{
-  margin: 1;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
