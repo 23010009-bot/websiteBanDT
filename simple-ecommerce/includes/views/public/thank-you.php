@@ -90,9 +90,9 @@ $formatted_address = Simple_Ecommerce_Helpers::format_shipping_address($shipping
             <div class="bank-info">
                 <p><strong>Ngân hàng:</strong> TECHCOMBANK</p>
                 <p><strong>Số tài khoản:</strong> 0393585475</p>
-                <p><strong>Chủ tài khoản:</strong> PHAM NGOC DUC</p>
+                <p><strong>Chủ tài khoản:</strong>DuC</p>
                 <p><strong>Nội dung:</strong> THANHTOAN<?php echo esc_html($order_id); ?></p>
-            </div>
+            </div>  
         <?php else: ?>
             <p>Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để xác nhận đơn hàng.</p>
         <?php endif; ?>
