@@ -75,7 +75,7 @@ get_header(); ?>
                         <span class="badge new">Mới</span>
                     </div>
                     <div class="iphone-img">
-                        <img src="C:\Users\ducch\Downloads\0048180_xanh-lam-khoi_1_.png"
+                        <img src="https://shopdunk.com/images/thumbs/0048180_xanh-lam-khoi.png"
                             alt="iPhone 17 256GB">
                     </div>
                     <div class="iphone-title">iPhone 17 256GB</div>
