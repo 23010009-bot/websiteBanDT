@@ -84,21 +84,23 @@ $formatted_address = Simple_Ecommerce_Helpers::format_shipping_address($shipping
     </div>
 
     <div class="payment-instructions">
-        <?php if ($payment_method === 'bank_transfer'): ?>
-            <h3>Hướng dẫn thanh toán</h3>
-            <p>Vui lòng chuyển khoản theo thông tin sau:</p>
-            <div class="bank-info">
-                <p><strong>Ngân hàng:</strong> TECHCOMBANK</p>
-                <p><strong>Số tài khoản:</strong> 0393585475</p>
-                <p><strong>Chủ tài khoản:</strong>DuC</p>
-                <p><strong>Nội dung:</strong> THANHTOAN<?php echo esc_html($order_id); ?></p>
-            </div>  
-        <?php else: ?>
-            <p>Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để xác nhận đơn hàng.</p>
-        <?php endif; ?>
+    <?php if ($payment_method === 'bank_transfer'): ?>
+        <h3>Hướng dẫn thanh toán</h3>
+        <p>Vui lòng chuyển khoản theo thông tin sau:</p>
+        <div class="bank-info">
+            <p><strong>Ngân hàng:</strong> TECHCOMBANK</p>
+            <p><strong>Số tài khoản:</strong> 0393585475</p>
+            <p><strong>Chủ tài khoản:</strong> PHAM NGOC DUC</p>
+            <p><strong>Nội dung:</strong> THANHTOAN<?php echo esc_html($order_id); ?></p>
+        </div>
+    <?php else: ?>
+        <p>Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất để xác nhận đơn hàng.</p>
+    <?php endif; ?>
+</div>
+
     </div>
 
     <div class="thank-you-actions">
-        <a href="<?php echo esc_url(home_url('/shop')); ?> - thank-you.php:102" class="continue-shopping">Tiếp tục mua sắm</a>
+        <a href="<?php echo esc_url(home_url('/shop')); ?> - thank-you.php:104" class="continue-shopping">Tiếp tục mua sắm</a>
     </div>
 </div>
