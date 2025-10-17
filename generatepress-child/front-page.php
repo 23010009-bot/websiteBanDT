@@ -3,7 +3,7 @@ $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 
 $args = array(
     'post_type' => 'product',
-    'posts_per_page' => 8, // số sản phẩm mỗi trang
+    'posts_per_page' => 8, 
     'paged' => $paged
 );
 
@@ -16,7 +16,7 @@ if ($loop->have_posts()) :
     endwhile;
     echo '</div> - front-page.php:17';
 
-    // Thêm phân trang
+  
     echo '<div class="pagination"> - front-page.php:20';
     echo paginate_links(array(
         'total' => $loop->max_num_pages
@@ -106,7 +106,7 @@ get_header(); ?>
                         <span class="badge new">Mới</span>
                     </div>
                     <div class="iphone-img">
-                        <img src="https://shopdunk.com/images/thumbs/0048180_xanh-lam-khoi.png"
+                        <img src="https://shopdunk.com/images/thumbs/0048180_xanh-lam-khoi.jpeg"
                             alt="iPhone 17 256GB">
                     </div>
                     <div class="iphone-title">iPhone 17 256GB</div>

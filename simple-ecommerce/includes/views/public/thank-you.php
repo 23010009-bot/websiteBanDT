@@ -60,11 +60,11 @@ $formatted_address = Simple_Ecommerce_Helpers::format_shipping_address($shipping
                                 $image_url = 'https://via.placeholder.com/50x50?text=No+Image';
                             }
                             ?>
-                            <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($item['name']); ?>">
+                            <img src="<?php echo esc_url($image_url); ?> - thank-you.php:63" alt="<?php echo esc_attr($item['name']); ?>">
                         </div>
                         <div class="item-name-qty">
-                            <span class="item-name"><?php echo esc_html($item['name']); ?></span>
-                            <span class="item-qty">Số lượng: <?php echo esc_html($item['quantity']); ?></span>
+                            <span class="itemname - thank-you.php:66"><?php echo esc_html($item['name']); ?></span>
+                            <span class="itemqty - thank-you.php:67">Số lượng: <?php echo esc_html($item['quantity']); ?></span>
                         </div>
                         <div class="item-price">
                             <?php
@@ -88,9 +88,9 @@ $formatted_address = Simple_Ecommerce_Helpers::format_shipping_address($shipping
             <h3>Hướng dẫn thanh toán</h3>
             <p>Vui lòng chuyển khoản theo thông tin sau:</p>
             <div class="bank-info">
-                <p><strong>Ngân hàng:</strong> MB BANK</p>
-                <p><strong>Số tài khoản:</strong> 0375401903</p>
-                <p><strong>Chủ tài khoản:</strong> DO THANH TUNG</p>
+                <p><strong>Ngân hàng:</strong> TECHCOMBANK</p>
+                <p><strong>Số tài khoản:</strong> 0393585475</p>
+                <p><strong>Chủ tài khoản:</strong> PHAM NGOC DUC</p>
                 <p><strong>Nội dung:</strong> THANHTOAN<?php echo esc_html($order_id); ?></p>
             </div>
         <?php else: ?>
@@ -99,6 +99,6 @@ $formatted_address = Simple_Ecommerce_Helpers::format_shipping_address($shipping
     </div>
 
     <div class="thank-you-actions">
-        <a href="<?php echo esc_url(home_url('/shop')); ?>" class="continue-shopping">Tiếp tục mua sắm</a>
+        <a href="<?php echo esc_url(home_url('/shop')); ?> - thank-you.php:102" class="continue-shopping">Tiếp tục mua sắm</a>
     </div>
 </div>
