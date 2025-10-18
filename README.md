@@ -1,11 +1,11 @@
 #  Xây dựng plugin ecommerce MVP cùng child theme
 
-|    Thành Viên     |   MSSV  |                  Email          |
-|-------------------|---------|---------------------------------|
-|    Phạm Duy Anh   | 23010155| 23010155@st.phenikaa-uni.edu.vn |
-|   Đỗ Thanh Tùng   | 23010144| 23010044@st.phenikaa-uni.edu.vn |
-|    Lê Sơn Hải     | 23010007| 23010007@st.phenikaa-uni.edu.vn |
-| Nguyễn Trọng Hùng | 23010083| 23010083@st.phenikaa-uni.edu.vn |
+|    Thành Viên         |   MSSV  |                  Email          |
+|-----------------------|---------|---------------------------------|
+|    Đỗ Duy Hưng        | 23010085| 23010085@st.phenikaa-uni.edu.vn |
+|   Phạm Ngọc Đức       | 23010009| 23010009@st.phenikaa-uni.edu.vn |
+|    Dương Thu Hằng     | 23010004| 23010004@st.phenikaa-uni.edu.vn |
+|   Hoàng Xuân Khải     | 23010091| 23010091@st.phenikaa-uni.edu.vn |
 
 
 # 1. Giới Thiệu:
@@ -23,7 +23,7 @@
   * Database: MySQL
   * Icon: Font Awesome
 # 3.cấu trúc dự án:
-PDA2105-CSE702025-NO6-Nhom2/
+Websitebandienthoai/
 ├── README.md
 ├── assignments/
 │   ├── assignment-1/
