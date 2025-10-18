@@ -118,7 +118,7 @@ class Simple_Ecommerce {
         wp_enqueue_style(
             'simple-ecommerce-mini-cart',
             SIMPLE_ECOMMERCE_URL . 'public/css/simple-ecommerce-mini-cart.css',
-            array('simple-ecommerce'),
+            array('simple-ecomSmerce'),
             SIMPLE_ECOMMERCE_VERSION
         );
         
