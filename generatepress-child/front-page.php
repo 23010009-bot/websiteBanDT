@@ -1,12 +1,10 @@
-<button class="slider-arrows next" onclick="goToNextPage()">></button>
+<button class="slider-arrows next" onclick="goToShop()">></button>
 
 <script>
-function goToNextPage() {
-  // Đường dẫn sang trang tiếp theo
-  window.location.href = "<?php echo site_url('/page/2'); ?> - front-page.php:6";
+function goToShop() {
+  window.location.href = "<?php echo site_url('/shop'); ?> - front-page.php:5";
 }
 </script>
-
 <?php
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
@@ -41,37 +39,37 @@ get_header(); ?>
     </div>
     <div class="category-list">
         <div class="category-item">
-            <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:44"><img
+            <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:42"><img
                     src="https://cdnv2.tgdd.vn/webmwg/2024/tz/images/desktop/IP_Desk.png" alt=""></a>
-            <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:46">
+            <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:44">
                 <p>iPhone</p>
             </a>
         </div>
         <div class="category-item">
-            <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:51"><img
+            <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:49"><img
                     src="https://cdnv2.tgdd.vn/webmwg/2024/tz/images/desktop/Ipad_Desk.png" alt=""></a>
-            <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:53">
+            <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:51">
                 <p>iPad</p>
             </a>
         </div>
         <div class="category-item">
-            <a href="<?php echo site_url('/mac/'); ?> - front-page.php:58"><img
+            <a href="<?php echo site_url('/mac/'); ?> - front-page.php:56"><img
                     src="https://cdnv2.tgdd.vn/webmwg/2024/tz/images/desktop/Mac_Desk.png" alt=""></a>
-            <a href="<?php echo site_url('/mac/'); ?> - front-page.php:60">
+            <a href="<?php echo site_url('/mac/'); ?> - front-page.php:58">
                 <p>Mac</p>
             </a>
         </div>
         <div class="category-item">
-            <a href="<?php echo site_url('/watch/'); ?> - front-page.php:65"><img
+            <a href="<?php echo site_url('/watch/'); ?> - front-page.php:63"><img
                     src="https://cdnv2.tgdd.vn/webmwg/2024/tz/images/desktop/Watch_Desk.png" alt=""></a>
-            <a href="<?php echo site_url('/watch/'); ?> - front-page.php:67">
+            <a href="<?php echo site_url('/watch/'); ?> - front-page.php:65">
                 <p>Watch</p>
             </a>
         </div>
         <div class="category-item">
-            <a href="<?php echo site_url('/phukien/'); ?> - front-page.php:72"><img
+            <a href="<?php echo site_url('/phukien/'); ?> - front-page.php:70"><img
                     src="https://cdnv2.tgdd.vn/webmwg/2024/tz/images/desktop/Speaker_Desk.png" alt=""></a>
-            <a href="<?php echo site_url('/phukien/'); ?> - front-page.php:74">
+            <a href="<?php echo site_url('/phukien/'); ?> - front-page.php:72">
                 <p>Tai nghe,Loa</p>
             </a>
         </div>
@@ -142,7 +140,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="iphone-viewall">
-                <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:145">Xem tất cả iPhone &rarr;</a>
+                <a href="<?php echo site_url('/iPhone/'); ?> - front-page.php:143">Xem tất cả iPhone &rarr;</a>
             </div>
 
         </div>
@@ -213,7 +211,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="iphone-viewall">
-                <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:216">Xem tất cả iPad &rarr;</a>
+                <a href="<?php echo site_url('/iPad/'); ?> - front-page.php:214">Xem tất cả iPad &rarr;</a>
             </div>
         </div>
     </div>
@@ -283,7 +281,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="iphone-viewall">
-                <a href="<?php echo site_url('/mac/'); ?> - front-page.php:286">Xem tất cả Mac &rarr;</a>
+                <a href="<?php echo site_url('/mac/'); ?> - front-page.php:284">Xem tất cả Mac &rarr;</a>
             </div>
         </div>
     </div>
@@ -353,12 +351,12 @@ get_header(); ?>
                 </div>
             </div>
             <div class="iphone-viewall">
-                <a href="<?php echo site_url('/watch/'); ?> - front-page.php:356">Xem tất cả Watch &rarr;</a>
+                <a href="<?php echo site_url('/watch/'); ?> - front-page.php:354">Xem tất cả Watch &rarr;</a>
             </div>
         </div>
     </div>
     <div class="topic-block-body">
-        <a href="<?php echo site_url('/shop/'); ?> - front-page.php:361"><img src="https://shopdunk.com/images/uploaded/Trang%20ch%E1%BB%A7/2.jpeg" alt=""></a>
+        <a href="<?php echo site_url('/shop/'); ?> - front-page.php:359"><img src="https://shopdunk.com/images/uploaded/Trang%20ch%E1%BB%A7/2.jpeg" alt=""></a>
     </div>
 </div>
 
