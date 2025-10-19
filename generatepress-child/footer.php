@@ -33,8 +33,8 @@
                 <div class="tgd-footer-col tgd-footer-group">
                     <strong>Liên hệ với chúng tôi</strong><br>
                     <div class="tgd-footer-social">
-                        <a href="https://www.facebook.com/ttung180/" style="text-decoration: none;"><i class="fab fa-facebook"></i>Đỗ Thanh Tùng</a>
-                        <a href="https://www.facebook.com/duyanhpham2105" style="text-decoration: none;"><i class="fab fa-facebook"></i>Phạm Duy Anh</a>
+                        <a href="https://www.facebook.com/uccpham.988356" style="text-decoration: none;"><i class="fab fa-facebook"></i>Phạm Ngọc Đức</a>
+                        <a href="https://www.facebook.com/hoang.khai.443211" style="text-decoration: none;"><i class="fab fa-facebook"></i>Hoàng Xuân Khải</a>
                         <a href="https://www.facebook.com/le.hai.219446" style="text-decoration: none;"><i class="fab fa-facebook"></i>Lê Sơn Hải</a>
                         <a href="https://www.facebook.com/nguyen.hung.469543" style="text-decoration: none;"><i class="fab fa-facebook"></i>Nguyễn Trọng Hùng</a>
                     </div>
