@@ -35,8 +35,8 @@
                     <div class="tgd-footer-social">
                         <a href="https://www.facebook.com/uccpham.988356" style="text-decoration: none;"><i class="fab fa-facebook"></i>Phạm Ngọc Đức</a>
                         <a href="https://www.facebook.com/hoang.khai.443211" style="text-decoration: none;"><i class="fab fa-facebook"></i>Hoàng Xuân Khải</a>
-                        <a href="https://www.facebook.com/le.hai.219446" style="text-decoration: none;"><i class="fab fa-facebook"></i>Lê Sơn Hải</a>
-                        <a href="https://www.facebook.com/nguyen.hung.469543" style="text-decoration: none;"><i class="fab fa-facebook"></i>Nguyễn Trọng Hùng</a>
+                        <a href="https://www.facebook.com/cugiandu.con" style="text-decoration: none;"><i class="fab fa-facebook"></i>Đỗ Duy Hưng </a>
+                        <a href="https://www.facebook.com/hang.dt.34" style="text-decoration: none;"><i class="fab fa-facebook"></i>Dương Thu Hằng</a>
                     </div>
                 </div>
             </div>
