@@ -63,7 +63,7 @@ try:
         writer.writeheader()
         writer.writerows(data)
 
-    print("✅ Đã xuất dữ liệu vào file 'mac.csv' - phukien.py:66")
+    print("✅ Đã xuất dữ liệu vào file 'phukien.csv' - phukien.py:66")
 
 except requests.exceptions.RequestException as e:
     print(f"❌ Lỗi khi kết nối đến trang web: {e} - phukien.py:69")
